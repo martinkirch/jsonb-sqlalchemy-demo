@@ -1,6 +1,6 @@
 # PostGreSQL JSONB demo, with SQLAlchemy
 
-This is a toy project that goes along with [presentation.pdf]
+This is a toy project that goes along with [presentation.pdf](presentation.pdf)
 
 Start with:
 
