@@ -41,7 +41,7 @@ class TaggedArticle(Article):
     __mapper_args__ = {'polymorphic_identity': ArticleType.TAGGED.value}
 
     def __repr__(self):
-        return super().__repr__() + f"\n\nTagged {self.extra['tags']}"
+        return super().__repr__() + f"\n\nTagged {self.content['tags']}"
 
 
 class ImageArticle(Article):
